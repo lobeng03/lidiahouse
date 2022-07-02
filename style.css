@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'The Nautigal', cursif;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'The Nautigal', cursif;
+}
+.container img{
+    height: 100px;
+    width: 100px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    line-height: 90px;
+    background-color: rgb(250, 208, 214);
+}
+.menu{
+    float: right;
+    text-align: center;  
+    font-size: larger;
+}
+.menu a{
+    color: rgba(14, 23, 24, 0.616);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.menu a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.inner-banner{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(250, 208, 214);
+    font-weight: bold;
+    font-style: italic;
+}
+.inner-banner .btn-custom{
+    background-color: rgb(250, 208, 214);
+    color: rgba(14, 23, 24, 0.616);
+    font-weight: bold;
+}
+.inner-banner .btn-custom:hover{
+    background-color: #fff;
+    color: rgb(250, 208, 214);
+}
+body{
+    background-color: rgb(250, 227, 200);
+}
+.footer-banner{
+    text-align: center;
+    background-color: rgb(250, 208, 214);
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 0;padding-bottom: 0;
+    overflow-y: hidden;
+}
+.ban img{
+    width: 100vw;
+    height: 900px;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 1;
+    overflow-x: hidden;
+}
+.card img{
+    height: 250px;
+    width: 382px;
+}
+.card-body{
+    height: 250px;
+    text-align: center;
+    background-color: rgb(250, 208, 214);
+    color: coral;
+}
+article{
+    background-color: rgb(250, 208, 214);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family:  'The Nautigal', sans-serif;
+}
+form{
+    background-color: rgb(250, 208, 214);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.container h1{
+    color: rgb(250, 208, 214);
+    margin-bottom: 25px;
+    font-weight: bold;
+}
